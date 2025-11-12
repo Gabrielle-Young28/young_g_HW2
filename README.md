@@ -1,4 +1,4 @@
-# One Piece Character Build
+# One Piece Character Build 🏴‍☠️ ⚓️
 This is a repo creating my own One Piece Character Build, to demonstrate basic CSS layouts, flex-box, light-box effects, and targeting a pseudo-class. I will create this with my own characters and styling based on the work we did in class.
 ## Installation
 No installation required. Simply download the zip file and extract.
