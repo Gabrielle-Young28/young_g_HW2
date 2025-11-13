@@ -12,3 +12,69 @@ header {
     background-color: white;
     padding: 10px 0;
 }
+
+#main-logo { 
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+/* Characters */
+
+#character-nav {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #484040;
+    background-image: url(../images/wanted_poster_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:screen;
+}
+
+#characters {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+}
+
+#characters li {
+    display: inline;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+#characters li img {
+    border: solid 2px #fff;
+    transition: all .5s ease-in-out;
+    background-color: gray;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, .7);
+}
+
+#characters li a {
+    text-decoration: none;
+}
+
+#luffy img:hover {
+   background: red;
+   transform: skew(0deg, 5deg) scale(1.2); 
+}
+
+#zoro img:hover {
+    background: green;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #nami img:hover {
+    background: orange;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #usopp img:hover {
+    background: yellow;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #sanji img:hover {
+    background: blue;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
