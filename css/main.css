@@ -1,0 +1,189 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(37, 193, 245);
+    color:black
+}
+
+header {
+    background-color: gray;
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    padding: 10px 0;
+}
+
+#main-logo { 
+    width: 300px;
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+}
+/* Characters */
+
+#character-nav {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #484040;
+    background-image: url(../images/wanted_poster_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:screen;
+}
+
+#characters {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+}
+
+#characters li {
+    display: inline;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+#characters li img {
+    border: solid 2px #fff;
+    transition: all .5s ease-in-out;
+    background-color: gray;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, .7);
+}
+
+#characters li a {
+    text-decoration: none;
+}
+
+#luffy img:hover {
+   background: red;
+   transform: skew(0deg, 5deg) scale(1.2); 
+}
+
+#zoro img:hover {
+    background: green;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #nami img:hover {
+    background: orange;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #usopp img:hover {
+    background: yellow;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #sanji img:hover {
+    background: blue;
+    transform: skew(0deg, 5deg) scale(1.2); 
+ }
+ 
+ #instructions { 
+    padding: 60px; 
+}
+
+#instructions h3  {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#instructions p {  
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#main-footer {
+    height: 80px;
+    background-color: gray;
+}
+
+ /* Light Boxes */
+
+ .lightbox {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 40px bottom;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+#lightbox1 {
+    background-image: url(../images/luffy_lightbox.png);
+}
+
+#lightbox2 {
+    background-image: url(../images/zoro_lightbox.png);
+    background-position: 0 bottom;
+}
+
+#lightbox3 {
+    background-image: url(../images/nami_lightbox.png)
+}
+
+#lightbox4 {
+    background-image: url(../images/usopp_lightbox.png);
+}
+
+#lightbox5 { 
+    background-image: url(../images/sanji_lightbox.png);
+} 
+
+.lightbox-close {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all .5s ease-in-out;
+}
+
+.lightbox-close:hover {
+    color: silver;
+
+}
+
+.lightbox section {
+    width: 600px;
+    margin-left: 65%;
+    margin-top: 120px;
+    border: groove 2px;
+    border-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.lb-heading {
+    font-size: 35px;
+}
+
+.lightbox p {
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+}
